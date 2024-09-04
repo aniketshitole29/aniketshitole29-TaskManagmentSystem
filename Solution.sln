@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{1B72A3D0-EA40-45A0-881B-67FFF1FDD84E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{7E3475A0-5B98-4A94-94C5-502F9B32A631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementAPI", "TaskManagementAPI\TaskManagementAPI.csproj", "{45CA1534-262F-48AF-8BE3-38D9A9F0184A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45CA1534-262F-48AF-8BE3-38D9A9F0184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CA1534-262F-48AF-8BE3-38D9A9F0184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CA1534-262F-48AF-8BE3-38D9A9F0184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CA1534-262F-48AF-8BE3-38D9A9F0184A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45CA1534-262F-48AF-8BE3-38D9A9F0184A} = {7E3475A0-5B98-4A94-94C5-502F9B32A631}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AD6CFFE-1766-4AEC-87A6-A000517AE1F7}
+	EndGlobalSection
+EndGlobal
